@@ -1,0 +1,13 @@
+
+nav{
+  padding:15px;
+}
+
+nav ul{
+    text-align:center;
+}
+
+nav ul li{
+  display:inline-block;
+  padding-right:25px;
+}

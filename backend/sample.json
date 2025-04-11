@@ -1,0 +1,26 @@
+[
+    {
+        "fname":"Ganesh",
+        "mobile":78787878,
+        "city":"bangalore",
+        "edu":"bca"
+    },
+    {
+        "fname":"Mukesh",
+        "mobile":8989898989,
+        "city":"mumbai",
+        "edu":"btech"
+    },
+    {
+        "fname":"Sumit",
+        "mobile":8989898989,
+        "city":"Pawan",
+        "edu":"mca"
+    },
+    {
+        "fname":"Rajat",
+        "mobile":7878787878,
+        "city":"delhi",
+        "edu":"bca"
+    }
+]

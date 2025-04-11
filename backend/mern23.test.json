@@ -1,0 +1,53 @@
+[{
+  "_id": {
+    "$oid": "67dd18cfdd31f0571cc167dd"
+  },
+  "fname": "Anil",
+  "mobile": {
+    "$numberLong": "88888888889"
+  },
+  "city": "bangalore",
+  "edu": "mca"
+},
+{
+  "_id": {
+    "$oid": "67dd1a2cdd31f0571cc167de"
+  },
+  "fname": "Ganesh",
+  "mobile": 78787878,
+  "city": "bangalore",
+  "edu": "bca"
+},
+{
+  "_id": {
+    "$oid": "67dd1a2cdd31f0571cc167df"
+  },
+  "fname": "Mukesh",
+  "mobile": {
+    "$numberLong": "8989898989"
+  },
+  "city": "mumbai",
+  "edu": "btech"
+},
+{
+  "_id": {
+    "$oid": "67dd1a2cdd31f0571cc167e0"
+  },
+  "fname": "Sumit",
+  "mobile": {
+    "$numberLong": "8989898989"
+  },
+  "city": "Pawan",
+  "edu": "mca"
+},
+{
+  "_id": {
+    "$oid": "67dd1a2cdd31f0571cc167e1"
+  },
+  "fname": "Rajat",
+  "mobile": {
+    "$numberLong": "7878787878"
+  },
+  "city": "delhi",
+  "edu": "bca"
+}]
