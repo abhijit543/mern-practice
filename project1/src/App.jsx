@@ -5,6 +5,7 @@ const Mybook = lazy(() => import("./book"));
 const FileReadWrite = lazy(() => import("./message"));
 const Myemail = lazy(() => import("./contact"));
 const Mystudent = lazy(() => import("./assets/student"));
+const ManageUser = lazy(() => import("./user"));
 
 function App() {
   let loadmsg = (
@@ -25,10 +26,22 @@ function App() {
           <li>
             <Link to="/sendemail"> Compose The Email </Link>
           </li>
+          <li>
+            <Link to="/user"> Manage </Link>
+          </li>
         </ul>
       </nav>
 
       <Routes>
+        <Route
+          exact
+          path="/user"
+          element={
+            <Suspense fallback={loadmsg}>
+              <ManageUser />
+            </Suspense>
+          }
+        />
         <Route
           exact
           path="/assets/student"

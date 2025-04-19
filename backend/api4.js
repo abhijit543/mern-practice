@@ -18,7 +18,9 @@ const db = mongoose.connection;
 
 db.on("error", (error) => console.log("Error in DB Connection"));
 db.on("open", () => console.log("Database is Connected..."));
-
+//dynamic start
+const UserApi = require("./userapi");
+app.use("/manageuser", UserApi); //http://localhost:1111/manageuser(get,post,put,patch,delete)
 app.get("/", (req, res) => {
   res.send("<h1>Welcome Node Api</h1>");
 });
